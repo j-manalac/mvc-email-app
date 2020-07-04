@@ -1,0 +1,1 @@
+// everything inside js folder is for vanilla JS 

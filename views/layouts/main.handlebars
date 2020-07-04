@@ -4,20 +4,31 @@
 
 <head>
     <meta charset="utf-8">
-
-    <title>MVC Email App</title>
-    <meta name="description" content="The HTML5 Herald">
-    <meta name="author" content="SitePoint">
-
+    <meta name="viewport" content="width = device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css?v=1.0">
+    <title>{{title}}</title>
 
 </head>
 
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/contact-us">Contact Us</a></li>
+                <li><a href="/product/list">View Product</a></li>
+                <li><a href="/product/add">Add Product</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
-        <h1>{{title}}</h1>
         {{{body}}}
     </main>
+    <footer>
+        <p>
+            Footer
+        </p>
+    </footer>
     <script src="js/scripts.js"></script>
 </body>
 
